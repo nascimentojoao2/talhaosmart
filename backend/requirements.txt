@@ -1,0 +1,3 @@
+# Este backend nao usa Python.
+# A implementacao atual eh Node.js + TypeScript + Express.
+# Portanto, nao ha dependencias Python obrigatorias para instalar.

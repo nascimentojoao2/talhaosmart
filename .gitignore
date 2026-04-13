@@ -1,0 +1,3 @@
+backend/*.sqlite-shm
+backend/*.sqlite-wal
+backend/*.sqlite

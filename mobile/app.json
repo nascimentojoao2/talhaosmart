@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "TalhaoSmart",
+    "slug": "talhaosmart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O app usa sua localização para desenhar talhões e centralizar o mapa.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.jgnagro.talhaosmart"
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#081c15"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#081c15"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-location",
+      "expo-document-picker",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f86f741d-a7a2-4346-9fff-be315ae70d20"
+      }
+    },
+    "expo": {
+      "scheme": "talhaosmart"
+    }
+  }
+}
